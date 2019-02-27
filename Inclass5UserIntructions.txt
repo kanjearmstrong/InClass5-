@@ -1,0 +1,7 @@
+User Intructions
+
+Enter the number of terms 
+Ex: 7521
+Hit the calculate button 
+The Approximate value of PI after 7521 (the number of terms you entered) terms.
+Ex:The Approximate value of pi after 7521 = 3.14172561463161

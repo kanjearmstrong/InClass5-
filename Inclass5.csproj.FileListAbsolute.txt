@@ -1,0 +1,10 @@
+C:\Users\cst117\source\repos\Inclass5\Inclass5\obj\Debug\Inclass5.csprojAssemblyReference.cache
+C:\Users\cst117\source\repos\Inclass5\Inclass5\obj\Debug\Inclass5.Form1.resources
+C:\Users\cst117\source\repos\Inclass5\Inclass5\obj\Debug\Inclass5.Properties.Resources.resources
+C:\Users\cst117\source\repos\Inclass5\Inclass5\obj\Debug\Inclass5.csproj.GenerateResource.cache
+C:\Users\cst117\source\repos\Inclass5\Inclass5\obj\Debug\Inclass5.csproj.CoreCompileInputs.cache
+C:\Users\cst117\source\repos\Inclass5\Inclass5\bin\Debug\Inclass5.exe.config
+C:\Users\cst117\source\repos\Inclass5\Inclass5\bin\Debug\Inclass5.exe
+C:\Users\cst117\source\repos\Inclass5\Inclass5\bin\Debug\Inclass5.pdb
+C:\Users\cst117\source\repos\Inclass5\Inclass5\obj\Debug\Inclass5.exe
+C:\Users\cst117\source\repos\Inclass5\Inclass5\obj\Debug\Inclass5.pdb
