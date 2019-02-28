@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Inclass5
+namespace InClass6
 {
     public partial class Form1 : Form
     {
@@ -17,32 +17,48 @@ namespace Inclass5
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            txtCalc.Clear();
-
-            Refresh();
-
-            double pi_over_4 = 0;
-            int num_terms = int.Parse(txtNumterms.Text);
-            double sign = 1;
-            for(int term = 0; term < num_terms; term++)
+            String Location = "C:\\Users\\cst117\\photos\\" + listBox1.SelectedItem + ".png";
+            pictureBox1.Image = Image.FromFile(Location);
+            if (radioButton1.Checked)
             {
-                pi_over_4 += sign / (term * 2 + 1);
-                sign *= -1;
+                label2.Text = "Water";
             }
-            double pi = 4 * pi_over_4;
-            txtCalc.Text = pi.ToString();
-                }
+            if (radioButton2.Checked)
+            {
+                label2.Text = "Juice";
+            }
+
+
+            if (checkBox1.CheckState == CheckState.Checked)
+            {
+                label3.Text = "Yogurt";
+            }
+            else if (checkBox2.CheckState == CheckState.Checked)
+            {
+                label3.Text = "Salad";
+            }
+            else
+            {
+                label3.Text = "No side selected";
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            label2.Text = "";
+            label3.Text = "";
+            pictureBox1.Image = null;
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
+        }
+    }
+}

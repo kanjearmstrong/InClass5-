@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Inclass5.Properties
+namespace InClass6.Properties
 {
 
 
